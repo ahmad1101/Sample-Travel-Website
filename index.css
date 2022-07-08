@@ -3,6 +3,9 @@
   margin: 0;
 }
 
+body{
+  overflow-x: hidden;
+}
 /* Main Styling */
 .main{
   width: 100%;
@@ -74,4 +77,131 @@ width: 80%;
 .about .right .map{
   border: 1px solid black;
   width: 80%;
+}
+/* About Styling End*/
+
+/* News Styling */
+.news{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F0F0F0;
+}
+
+.news h2{
+  margin-top: 50px;
+}
+
+.news .frame{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.news .frame iframe{
+  width: 80%;
+  height: 100%;
+  margin-top: 50px;
+}
+/* News Styling End*/
+
+/* Youtube Styling */
+.youtube{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.youtube h2{
+  margin-top: 50px;
+}
+
+.youtube .tiles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.youtube .tiles .tile{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.youtube .tiles .tile iframe{
+  width: 100%;
+  height: 100%;
+}
+/* Youtube Styling End*/
+
+/* Parallax Styling */
+.paral{
+  width: 100%;
+  height: 40vh;
+  background-image: url('scroller.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* Parallax Styling End*/
+
+/* Last Styling */
+.last{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #546278;
+  color: white;
+  padding: 30px;
+}
+
+.last p{
+  margin: 5px;
+}
+
+.last input{
+  width: 30%;
+  height: 30px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid white;
+  outline: 0;
+  margin: 5px;
+}
+
+.last input::placeholder{
+  color: white;
+  text-align: center;
+}
+
+.last textarea{
+  width: 30%;
+  background-color: transparent;
+  border: 1px solid white;
+  outline: 0;
+  margin: 5px;
+  padding: 5px;
+}
+
+.last textarea::placeholder{
+  color: white;
+}
+
+.last input[type=submit]{
+  width: 10%;
+  background-color: dodgerblue;
+  border: 0;
 }
