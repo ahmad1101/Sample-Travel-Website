@@ -1,0 +1,173 @@
+/* This css file is for making the website responsive */
+
+@media only screen and (max-width: 1080px)
+{
+  .main .overlay .cont h1{
+    font-size: 50px;
+  }
+
+  .about .right .map{
+    width: 70%;
+    max-height: 350px;
+  }
+
+  .youtube .tiles .tile{
+    max-height: 190px;
+    max-width: 240px;
+  }
+}
+
+@media only screen and (max-width: 900px)
+{
+  .main .overlay .cont h1{
+    font-size: 42px;
+  }
+
+  .about .left p{
+    width: 70%;
+    font-size: 17px;
+    line-height: 22px;
+    margin-top: 20px;
+  }
+
+  .about .right .map{
+    width: 80%;
+    max-height: 300px;
+  }
+
+  .news h2{
+    margin-top: 50px;
+    width: 55%;
+    text-align: center;
+  }
+
+  .last input{
+    width: 55%;
+  }
+
+  .last textarea{
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 660px)
+{
+  .main .overlay .cont h1{
+    font-size: 38px;
+  }
+
+  .about .left p{
+    width: 80%;
+    font-size: 17px;
+  }
+
+  .about .right .map{
+    width: 85%;
+    max-height: 300px;
+  }
+
+  .youtube .tiles .tile{
+    max-height: 160px;
+    max-width: 200px;
+  }
+
+  .last input[type=submit]{
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 580px)
+{
+  .about{
+    flex-direction: column;
+  }
+
+  .about .left{
+    width: 70%;
+  }
+  .about .right{
+    width: 70%;
+  }
+
+  .about .right .map{
+    width: 100%;
+    max-height: 250px;
+  }
+
+  .last p{
+    position: relative;
+    left: -7%;
+  }
+  .last input{
+    position: relative;
+    left: -7%;
+  }
+  .last textarea{
+    position: relative;
+    left: -7%;
+  }
+
+  @media only screen and (max-width: 490px)
+  {
+    .main .overlay .cont h1{
+      font-size: 32px;
+      width: 90%;
+    }
+
+    .about .right .map{
+      width: 80%;
+      max-height: 200px;
+      margin-left: 11%;
+    }
+
+    .youtube .tiles .tile{
+      max-height: 160px;
+      max-width: 230px;
+    }
+
+    .last input{
+      width: 45%;
+    }
+
+    .last textarea{
+      height: 90px;
+      width: 45%;
+    }
+  }
+
+  @media only screen and (max-width: 360px)
+  {
+    .main .overlay .cont h1{
+      font-size: 30px;
+    }
+
+    .youtube .tiles .tile{
+      max-height: 150px;
+      max-width: 210px;
+    }
+
+    .last p{
+      font-size: 15px;
+    }
+
+    .last input{
+      width: 55%;
+    }
+
+    .last textarea{
+      height: 90px;
+      width: 55%;
+    }
+  }
+
+  @media only screen and (max-width: 342px)
+  {
+    .main .overlay .cont h1{
+      font-size: 28px;
+    }
+
+    .youtube .tiles .tile{
+      max-height: 140px;
+      max-width: 200px;
+    }
+  }
